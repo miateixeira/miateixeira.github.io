@@ -58,7 +58,7 @@ footer {
   display: table-cell;
 }
 
-.avatar {
+img.avatar {
   width: 250px;
   border-radius: 50%;
   vertical-align: middle;
