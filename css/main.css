@@ -15,16 +15,20 @@ nav ul, div.sidebar ul {
   padding: 0px;
   list-style: none;
   font-weight: bold;
+  text-align: center;
 }
 
 div.sidebar ul {
-  width: 30%;
-  margin-left: 35%;
+  /* width: 30%; */
+  /* margin-left: 35%; */
+  display: inline-block;
+  margin: 1em auto;
 }
 
 nav ul li {
-  display: inline;
-  margin-right: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  /* margin-right: 20px; */
   font-size: 2em;
 }
 
@@ -41,6 +45,10 @@ a {
 a:hover {
   color: #999;
   text-decoration: none;
+}
+
+a i {
+  margin-right: 1em;
 }
 
 h1 {
