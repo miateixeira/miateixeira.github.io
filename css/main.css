@@ -34,12 +34,10 @@ div.sidebar ul li {
 }
 
 a {
-  /* text-decoration: none; */
   color: #cec;
 }
 
 a:hover {
-  /* text-decoration: underline; */
   color: #999;
 }
 
@@ -51,13 +49,8 @@ h1 {
 p {
   font-size: 1.5em;
   line-height: 1.4em;
-  color: #333;
+  color: #cec
 }
-
-/* footer { */
-  /* border-top: 1px solid #d5d5d5; */
-  /* font-size: .8em; */
-/* } */
 
 .homepage {
   display: table;
