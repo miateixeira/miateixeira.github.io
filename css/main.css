@@ -59,7 +59,9 @@ footer {
 }
 
 img.avatar {
-  width: 60%;
-  margin: 0 auto;
+  width: 80%;
+  /* margin: 0 auto; */
+  padding-top: 15px;
   border-radius: 50%;
+  position: center;
 }
