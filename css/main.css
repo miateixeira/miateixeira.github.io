@@ -52,19 +52,19 @@ body {
     min-height: 100vh;
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.marketing p {
-    line-height: 25px;
-}
-
-.marketing p.lead {
-    line-height: 30px;
-}
-
+/* .row { */
+/*     margin-right: -15px; */
+/*     margin-left: -15px; */
+/* } */
+/*  */
+/* .marketing p { */
+/*     line-height: 25px; */
+/* } */
+/*  */
+/* .marketing p.lead { */
+/*     line-height: 30px; */
+/* } */
+/*  */
 .col-sm-4, .col-sm-8 {
     position: relative;
     min-height: 1px;
