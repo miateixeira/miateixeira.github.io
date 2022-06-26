@@ -98,7 +98,7 @@ p {
   display: table-cell;
 }
 
-.lead {
+p.lead {
   font-size: 1.7em;
   line-height: 2em;
 }
