@@ -16,11 +16,52 @@ body {
     /* min-height: 100vh; */
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 700;
+}
+
+/* Masthead */
+.header, .footer, .header h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+/* Navigation */
+h3.text-muted a {
+    text-decoration: none;
+    color: #999999;
+}
+
+h3.text-muted a:hover {
+    text-decoration: none;
+    color: #0088cc;
+}
+
+/* Container */
 .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.container:before,
+.container:after {
+    display: table,
+    content: " ";
+}
+
+.container:after {
+    clear: both;
+}
+
+.container > hr {
+    margin: 30px 0;
+}
+
+.container > hr.footer {
+    margin-bottom: 15px;
 }
 
 /* nav ul, footer ul { */
