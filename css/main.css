@@ -98,6 +98,11 @@ p {
   display: table-cell;
 }
 
+.lead {
+  font-size: 1.7em;
+  line-height: 2em;
+}
+
 img.avatar {
   width: 80%;
   vertical-align: top;
