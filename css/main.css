@@ -50,10 +50,16 @@ footer {
 }
 
 .sidebar {
-  width: 400px;
+  width: 350px;
   display: table-cell;
 }
 
 .blurb {
   display: table-cell;
+}
+
+.avatar {
+  width: 60%;
+  border-radius: 50%;
+  vertical-align: middle;
 }
