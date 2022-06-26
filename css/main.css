@@ -21,11 +21,14 @@ nav ul, div.sidebar ul {
 nav ul li {
   display: inline;
   margin-right: 20px;
+  font-size: 2em;
 }
 
 div.sidebar ul li {
   margin-bottom: 20px;
-  margin-left: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
 }
 
 a {
