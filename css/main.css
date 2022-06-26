@@ -35,10 +35,12 @@ div.sidebar ul li {
 
 a {
   color: #cec;
+  text-decoration: none;
 }
 
 a:hover {
   color: #999;
+  text-decoration: none;
 }
 
 h1 {
