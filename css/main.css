@@ -18,17 +18,11 @@ nav ul, div.sidebar ul {
   text-align: center;
 }
 
-div.sidebar ul {
-  /* width: 30%; */
-  /* margin-left: 35%; */
+div.sidebar ul, nav ul li {
   display: inline-block;
-  margin: 1em auto;
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 0 auto;
-  /* margin-right: 20px; */
   font-size: 2em;
 }
 
@@ -74,6 +68,7 @@ p {
 .sidebar {
   width: 30%;
   display: table-cell;
+  text-align: center;
 }
 
 .blurb {
