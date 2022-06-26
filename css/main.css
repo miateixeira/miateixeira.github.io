@@ -10,6 +10,10 @@ body {
   height: 100vh;
 }
 
+nav {
+  padding-bottom: 3em;
+}
+
 nav ul, div.sidebar ul {
   font-family: 'Montserrat', 'Helvetica', 'Arial', 'Sans-Serif';
   padding: 0px;
@@ -87,7 +91,7 @@ p {
 }
 
 .container {
-  padding: 10%;
+  padding: 0 5%;
 }
 
 .blurb {
@@ -97,6 +101,6 @@ p {
 img.avatar {
   width: 80%;
   vertical-align: top;
-  padding: 10%;
+  padding: 0 10%;
   border-radius: 50%;
 }
