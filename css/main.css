@@ -21,7 +21,7 @@ div.sidebar ul {
   width: 30%;
   margin-left: 35%;
 }
-/* nav ul li, footer ul li { */
+
 nav ul li {
   display: inline;
   margin-right: 20px;
@@ -34,12 +34,13 @@ div.sidebar ul li {
 }
 
 a {
-  text-decoration: none;
-  color: #999;
+  /* text-decoration: none; */
+  color: #cec;
 }
 
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color: #999;
 }
 
 h1 {
