@@ -23,7 +23,7 @@ nav ul {
   justify-content: space-between;
 }
 
-div.sidebar ul li, nav ul li {
+div.sidebar ul, nav ul li {
   display: inline-block;
 }
 
