@@ -109,3 +109,19 @@ img.avatar {
   padding: 0 10%;
   border-radius: 50%;
 }
+
+.teaching-entry {
+  padding-top: 1em;
+}
+
+.course-number {
+  font-weight: bold;
+}
+
+.course-name {
+  font-weight: italic;
+}
+
+.course-school {
+  float: right;
+}
