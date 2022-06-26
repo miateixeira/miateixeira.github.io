@@ -81,12 +81,12 @@ body {
     width: 66.666666666666%
 }
 
-.lead {
-    margin-bottom: 20px;
-    font-size: 16.09999999999px;
-    font-weight: 200;
-    line-height: 1.4;
-}
+/* .lead { */
+/*     margin-bottom: 20px; */
+/*     font-size: 16.09999999999px; */
+/*     font-weight: 200; */
+/*     line-height: 1.4; */
+/* } */
 
 .avatar {
     width: 300px;
