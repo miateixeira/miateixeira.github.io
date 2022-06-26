@@ -88,8 +88,8 @@ body {
     line-height: 1.4;
 }
 
-img {
-    width: 200px;
+.avatar {
+    width: 300px;
     border-radius: 50%;
 }
 
