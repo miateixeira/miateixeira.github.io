@@ -14,7 +14,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, img, small, i, ul, li, footer, heade
 
 body {
     line-height: 1;
-    color: #162841;
+    background-color: #162841;
 }
 
 footer, header, nav {
