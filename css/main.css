@@ -1,194 +1,41 @@
-/* Style reset */
-/* Adapted from: */
-/* https://ninth.digital/blog-posts/what-is-a-css-reset-and-the-proper-way-to-do-it */
-
-html, body, div, h1, h2, h3, h4, h5, h6, p, img, small, i, ul, li, footer, header, nav {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
 body {
-    line-height: 1;
+    margin: 60px auto;
+    width: 70%;
 }
 
-footer, header, nav {
-    display: block;
-}
-
-nav ul {
+nav ul, footer ul {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
     list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 a {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+    text-decoration: none;
+    color: #999;
 }
 
-/* @import url(http://fonts.googleapis.com/css?family=Montserrat); */
-
-body {
-    /* margin: 60px auto; */
-    /* width: 70%; */
-    /* margin: 0; */
-    /* padding-top: 20px; */
-    /* padding-bottom: 40px; */
-    font-family: Crimson, serif;
-    /* font-family: Crimson; */
-    /* font-size: 16px; */
-    /* line-height: 1.45; */
-    /* color: #333333; */
-    /* background-color: #ffffff; */
-    margin: 2em auto 2em auto;
-    max-width: 40em;
-    /* padding: 30px; */
-    min-height: 100vh;
-    background-color: #28a877;
+a:hover {
+    text-decoration: underline;
 }
 
-/* .row { */
-/*     margin-right: -15px; */
-/*     margin-left: -15px; */
-/* } */
-/*  */
-/* .marketing p { */
-/*     line-height: 25px; */
-/* } */
-/*  */
-/* .marketing p.lead { */
-/*     line-height: 30px; */
-/* } */
-/*  */
-/* .col-sm-4, .col-sm-8 { */
-/*     position: relative; */
-/*     min-height: 1px; */
-/*     padding-right: 15px; */
-/*     padding-left: 15px; */
-/*     float: left; */
-/* } */
-/*  */
-/* .col-sm-4 { */
-/*     width: 33.333333333333% */
-/* } */
-/*  */
-/* .col-sm-8 { */
-/*     width: 66.666666666666% */
-/* } */
-/*  */
-/* .lead { */
-/*     margin-bottom: 20px; */
-/*     font-size: 16.09999999999px; */
-/*     font-weight: 200; */
-/*     line-height: 1.4; */
-/* } */
-
-#homecontent { width: 100%; display: table; }
-
-#homerow { display: table-row; }
-
-#avatarcol { width: 33%; display: table-cell; }
-
-#avatar {
-    width: 300px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
+h1 {
+    font-size: 3em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-#homecol { display: table-cell; }
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
 
-/* h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { */
-/*     font-weight: 700; */
-/* } */
-/*  */
-
-/* .header, .footer, .header h3 { */
-/*     font-family: 'Montserrat', sans-serif; */
-/*     text-transform: uppercase; */
-/*     font-weight: normal; */
-/* } */
-/*  */
-/* /* Navigation */ */
-/* h3.text-muted a { */
-/*     text-decoration: none; */
-/*     color: #999999; */
-/* } */
-/*  */
-/* h3.text-muted a:hover { */
-/*     text-decoration: none; */
-/*     color: #0088cc; */
-/* } */
-/*  */
-/* /* Container */ */
-/* .container { */
-/*     padding-right: 15px; */
-/*     padding-left: 15px; */
-/*     margin-right: auto; */
-/*     margin-left: auto; */
-/* } */
-/*  */
-/* .container:before, */
-/* .container:after { */
-/*     display: table, */
-/*     content: " "; */
-/* } */
-/*  */
-/* .container:after { */
-/*     clear: both; */
-/* } */
-/*  */
-/* .container > hr { */
-/*     margin: 30px 0; */
-/* } */
-/*  */
-/* .container > hr.footer { */
-/*     margin-bottom: 15px; */
-/* } */
-
-/* --------------------- */
-
-/* nav ul, footer ul { */
-/*     padding: 0px; */
-/*     list-style: none; */
-/*     font-weight: bold; */
-/* } */
-/* nav ul li, footer ul li { */
-/*     display: inline; */
-/*     margin-right: 20px; */
-/* } */
-/* a { */
-/*     text-decoration: none; */
-/*     color: #999; */
-/* } */
-/* a:hover { */
-/*     text-decoration: underline; */
-/* } */
-/* h1 { */
-/*     font-size: 3em; */
-/*     font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
-/* } */
-/* p { */
-/*     font-size: 1.5em; */
-/*     line-height: 1.4em; */
-/*     color: #333; */
-/* } */
-/* footer { */
-/*     border-top: 1px solid #d5d5d5; */
-/*     font-size: .8em; */
-/* } */
-/*  */
-/* ul.posts {  */
-/*     margin: 20px auto 40px;  */
-/*     font-size: 1.5em; */
-/* } */
-/*  */
-/* ul.posts li { */
-/*     list-style: none; */
-/* } */
+footer {
+    border-top 1px solid #d5d5d5;
+    font-size: .8em;
+}
