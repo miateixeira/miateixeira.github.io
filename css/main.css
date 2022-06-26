@@ -4,15 +4,21 @@ body {
 }
 
 nav ul, div.sidebar ul {
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-family: 'Montserrat', 'Helvetica', 'Arial', 'Sans-Serif';
   padding: 0px;
   list-style: none;
   font-weight: bold;
 }
 
-nav ul li, footer ul li {
+/* nav ul li, footer ul li { */
+nav ul li {
   display: inline;
   margin-right: 20px;
+}
+
+div.sidebar ul li {
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 a {
@@ -26,7 +32,7 @@ a:hover {
 
 h1 {
   font-size: 3em;
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-family: 'Montserrat', 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 p {
@@ -35,10 +41,10 @@ p {
   color: #333;
 }
 
-footer {
-  border-top: 1px solid #d5d5d5;
-  font-size: .8em;
-}
+/* footer { */
+  /* border-top: 1px solid #d5d5d5; */
+  /* font-size: .8em; */
+/* } */
 
 .homepage {
   display: table;
@@ -50,7 +56,7 @@ footer {
 }
 
 .sidebar {
-  width: 350px;
+  width: 30%;
   display: table-cell;
 }
 
