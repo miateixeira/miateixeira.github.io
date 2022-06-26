@@ -39,3 +39,21 @@ footer {
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
 }
+
+.homepage {
+  display: table;
+  width: 100%;
+}
+
+.homerow {
+  display: table-row;
+}
+
+.sidebar {
+  width: 400px;
+  display: table-cell;
+}
+
+.blurb {
+  display: table-cell;
+}
