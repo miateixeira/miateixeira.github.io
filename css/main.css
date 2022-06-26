@@ -60,6 +60,9 @@ h1 {
 
 h2 {
   font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #cecece;
 }
 
 p {
