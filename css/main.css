@@ -94,9 +94,11 @@ body {
 
 #avatarcol { width: 33%; display: table-cell; }
 
-.avatar {
+#avatar {
     width: 300px;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #homecol { display: table-cell; }
