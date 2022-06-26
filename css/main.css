@@ -18,7 +18,12 @@ nav ul, div.sidebar ul {
   text-align: center;
 }
 
-div.sidebar ul, nav ul li {
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.sidebar ul li, nav ul li {
   display: inline-block;
 }
 
