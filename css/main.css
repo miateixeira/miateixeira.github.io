@@ -17,6 +17,10 @@ nav ul, div.sidebar ul {
   font-weight: bold;
 }
 
+div.sidebar ul {
+  width: 30%;
+  margin-left: 35%;
+}
 /* nav ul li, footer ul li { */
 nav ul li {
   display: inline;
@@ -25,9 +29,7 @@ nav ul li {
 }
 
 div.sidebar ul li {
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 1em;
   font-size: 1.2em;
 }
 
