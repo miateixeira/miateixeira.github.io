@@ -86,6 +86,10 @@ p {
   text-align: center;
 }
 
+.container {
+  padding: 10%;
+}
+
 .blurb {
   display: table-cell;
 }
