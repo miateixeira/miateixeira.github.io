@@ -72,7 +72,7 @@ h2 {
 h3 {
   font-size: 1.5em;
   margin-top: 0;
-  margin-bottom: 2em;
+  margin-bottom: 0;
   color: #cecece;
 }
 
@@ -147,6 +147,7 @@ p.course-detail {
 
 .bib {
   display: table;
+  margin-bottom: 3em;
 }
 
 .bib-entry {
