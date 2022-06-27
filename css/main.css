@@ -114,10 +114,6 @@ img.avatar {
   padding-top: 1em;
 }
 
-.course-info {
-  float: left;
-}
-
 .course-number {
   font-weight: bold;
   padding-right: 0.5em;
@@ -128,5 +124,5 @@ img.avatar {
 }
 
 .course-school {
-  float: right;
+  padding-left: 0.25em;
 }
