@@ -171,5 +171,10 @@ p.course-detail {
 
 bib a {
   background-color: #007896;
+  color: #cecece;
   border-radius: 15%;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
