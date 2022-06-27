@@ -144,3 +144,18 @@ p.course-detail {
   margin-top: 0;
   margin-bottom: 0.5em;
 }
+
+.bib-entry {
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.bib-year {
+  text-align: right;
+  font-weight: bold;
+  width: 20%;
+}
+
+.bib-info {
+  text-align: left;
+}
