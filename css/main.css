@@ -126,3 +126,10 @@ img.avatar {
 .course-school {
   padding-left: 0.25em;
 }
+
+hr {
+  border: 0;
+  border-top: 1px solid #cecece;
+  margin-top: 0.5em;
+  height: 1px;
+}
