@@ -172,9 +172,11 @@ p.course-detail {
 .bib a {
   background-color: #007896;
   color: #cecece;
-  border-radius: 15px;
-  padding: 14px 25px;
+  border-radius: 10px;
+  padding: 2px 5px;
   text-align: center;
   text-decoration: none;
+  font-weight: bold;
+  margin-left: 5pt;
   display: inline-block;
 }
