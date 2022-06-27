@@ -169,10 +169,10 @@ p.course-detail {
   display: table-cell;
 }
 
-bib a {
+.bib a {
   background-color: #007896;
   color: #cecece;
-  border-radius: 15%;
+  border-radius: 15px;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
