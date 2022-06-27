@@ -114,7 +114,7 @@ img.avatar {
   padding-top: 1em;
 }
 
-.course-title {
+p.course-title {
   margin-bottom: 0;
 }
 
@@ -131,7 +131,7 @@ img.avatar {
   padding-left: 0.25em;
 }
 
-.course-detail {
+p.course-detail {
   padding-left: 2em;
   font-size: 1.2em;
   margin-top: 0;
