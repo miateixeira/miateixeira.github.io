@@ -151,15 +151,16 @@ p.course-detail {
 
 .bib-entry {
   width: 100%;
-  font-size: 1.2em;
+  font-size: 0.9em;
   display: table-row;
 }
 
 .bib-year {
   text-align: right;
   font-weight: bold;
-  width: 20%;
+  width: 15%;
   display: table-cell;
+  padding-right: 1em;
 }
 
 .bib-info {
