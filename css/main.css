@@ -145,6 +145,10 @@ p.course-detail {
   margin-bottom: 0.5em;
 }
 
+.bib {
+  display: table;
+}
+
 .bib-entry {
   width: 100%;
   font-size: 1.2em;
