@@ -115,7 +115,7 @@ img.avatar {
 }
 
 p.course-title {
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
 }
 
 .course-number {
@@ -135,4 +135,5 @@ p.course-detail {
   padding-left: 2em;
   font-size: 1.2em;
   margin-top: 0;
+  margin-bottom: 0.5em;
 }
