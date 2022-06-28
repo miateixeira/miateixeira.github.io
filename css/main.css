@@ -68,12 +68,12 @@ h2 {
   font-size: 2em;
   margin-top: 0;
   margin-bottom: 1em;
-  color: #cecece;
-}
-
-.sidebar h2 {
   color: #c16804;
 }
+
+/* .sidebar h2 { */
+  /* color: #c16804; */
+/* } */
 
 h3 {
   font-size: 1.5em;
