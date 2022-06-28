@@ -42,12 +42,10 @@ div.sidebar ul li {
 
 a {
   color: #e6a51d;
-  /* color: #cecece; */
   text-decoration: none;
 }
 
 a:hover {
-  /* color: #999; */
   color: #c16804;
   text-decoration: none;
 }
@@ -71,16 +69,12 @@ h2 {
   color: #c16804;
 }
 
-/* .sidebar h2 { */
-  /* color: #c16804; */
-/* } */
 
 h3 {
   font-size: 1.5em;
   margin-top: 0;
   margin-bottom: 0;
   color: #76726d;
-  /* color: #cecece; */
 }
 
 p {
@@ -179,7 +173,6 @@ p.course-detail {
 .bib a {
   background-color: #007896;
   color: #313131;
-  /* color: #cecece; */
   border-radius: 10px;
   padding: 2px 5px;
   text-align: center;
