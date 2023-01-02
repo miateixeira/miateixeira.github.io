@@ -16,13 +16,13 @@ nav {
 
 nav ul, div.sidebar ul {
   font-family: 'Montserrat', 'Helvetica', 'Arial', 'Sans-Serif';
-  padding: 0px;
   list-style: none;
   font-weight: bold;
   text-align: center;
 }
 
 nav ul {
+  padding: 0px;
   display: flex;
   justify-content: space-between;
 }
