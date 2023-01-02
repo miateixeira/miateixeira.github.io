@@ -31,6 +31,10 @@ div.sidebar ul, nav ul li {
   display: inline-block;
 }
 
+div.sidebar ul {
+  padding-top: 100px;
+}
+
 nav ul li {
   font-size: 1.5em;
 }
